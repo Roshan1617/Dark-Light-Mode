@@ -1,19 +1,31 @@
 #toggle {
-    width: 80px;
-    height: 40px;
-    border: 8px solid;  
-    border-radius: 40px;
-
-    cursor: pointer;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: black;
 }
 
 #button {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    position: absolute;
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+    border-radius: 16px;
     transition: 0.25s;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#light {
+    width: 18px;
+    height: 18px;
+}
+
+#dark {
+    width: 16px;
+    height: 16px;
 }
